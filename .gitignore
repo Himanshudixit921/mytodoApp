@@ -33,7 +33,12 @@ local.properties
 .cxx/
 *.keystore
 !debug.keystore
+.apk
+# Ignore all APK files
+*.apk
 
+# Ignore build outputs
+/app/build/outputs/apk/
 # node.js
 #
 node_modules/
